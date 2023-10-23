@@ -1,0 +1,17 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 20px;}
+
+
+.portadas {display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;}
+
+.item{gap: 30px;}
+
+p{text-align: justify;}
+
+.imagenes {width: 100%;}
+
+.pie {background-color: blue;
+    padding: 30px 0px;}

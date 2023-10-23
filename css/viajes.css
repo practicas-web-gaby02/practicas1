@@ -1,0 +1,41 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 30px;}
+
+body{background-color: rgb(255, 255, 255);
+    /*font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;*/}
+
+.logo{width: 150px;
+    float: left;
+    margin: 0px;}
+ 
+
+h1{text-align: center;
+    padding: 50px 0px 50px 0px;
+    margin-bottom:20px;
+    font-size: 3.5em;
+    font-weight: 700;}
+
+
+.intro{color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: justify;
+    font-size: 1em;
+    background-color: rgb(35, 29, 95);}
+
+
+
+
+
+img{width: 100%;}
+
+
+footer{text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(35, 29, 95);
+        padding: 20px 0px;}

@@ -1,0 +1,39 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+
+h1 {text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(175, 96, 0);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Mooli', sans-serif;  
+    color: whitesmoke;}
+
+ 
+body {background-image: url(/img/magicpattern-confetti-1695243212307.svg);
+    /*background-repeat: repeat-y;
+    background-position: right;*/
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Mooli', sans-serif;}
+
+.cabecera small {text-align: center;
+                    width: 100%;
+                    display: block;
+                    margin-top: 15px;
+                    font-size: 1.3em;}
+
+
+.principal table {margin: auto;}
+
+
+.videos {width: 80%;
+        display: flex;
+        margin: auto;}
+
+
+.items {width: 50%;}
+
+.items video, .items iframe {width: 100%;
+                                height: 200px;}
+

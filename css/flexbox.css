@@ -1,0 +1,28 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;}
+ 
+
+.galeria{ width: 100%;
+            background-color: rgb(43, 115, 249);
+            padding: 15px;
+            box-sizing: border-box;}
+
+.container{display: flex;
+            min-height: 350px;
+            background: purple;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-end;}
+
+.items{width: 15%;
+        min-height: 120px;
+        background: orangered;}
+
+
+.dos{align-self: flex-start;}
+
+
+div.container div.items span {font-size: 2em !important;}

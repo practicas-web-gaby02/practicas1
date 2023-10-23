@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas y videos HTML</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Mooli&display=swap" rel="stylesheet">
+    
+    <!--Mi hoja de estilos-->
+    <link rel="stylesheet" href="/css/videos.css">
 </head>
-<body>
+<body>  
     
     <header class="cabecera">
         <h1>Tablas y videos HTML</h1>
-        <small>Semantica HTML</small>
+        <small >Semantica HTML</small>
 
     </header>
-    <main>
+    <main class="principal">
         <table>
             <tr>
                 <td>1</td>
@@ -85,11 +93,11 @@
     </main>
     <section class="videos">
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/M4T-_aB8smU?si=2tggq-XhjQOTQi68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="items">
+            <iframe src="https://www.youtube.com/embed/M4T-_aB8smU?si=2tggq-XhjQOTQi68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div>
-            <video controls width="560" height="315" src="../videos/Trailer.mp4"></video>
+        <div class="items">
+            <video controls src="../videos/Trailer.mp4"></video>
         </div>
 
     </section>
