@@ -18,7 +18,7 @@ body{font-family: 'Shadows Into Light', cursive;}
 .items {display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: flex-end;}
 
 

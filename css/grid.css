@@ -1,4 +1,8 @@
 /*DOCUMENTO CSS*/
 
-
+.grid {background-color: black;}
 .container {background-color: rgb(0, 0, 84);}
+
+
+.items img {width: 100%;
+                height: auto;}
